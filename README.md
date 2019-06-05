@@ -4,9 +4,9 @@
 
 ## Vundle - if you don't have Vundle installed:
 
-'''
+```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-'''
+```
 
 1. If do you want to contribute please email me. 
 
