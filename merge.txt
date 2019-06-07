@@ -1,0 +1,6 @@
+#Two commands
+
+diff -DVERSION1 file1 file2 > mergedfile
+
+#newfile can be "file2"
+grep -v '^#if' merged.xml | grep -v '^#endif' > newfile

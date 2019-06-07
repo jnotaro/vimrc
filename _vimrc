@@ -43,6 +43,12 @@ nnoremap <space> za
 let g:SimpylFold_docstring_preview=1
 set encoding=utf-8
 
+" All the split to happen below
+set splitbelow
+
+" Auto reload NERDTree after :w
+autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
+
 "------------Start Python PEP 8 stuff----------------
 " Number of spaces that a pre-existing tab is equal to.
 au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
