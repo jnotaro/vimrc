@@ -14,8 +14,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 3. List of plugins
     - tmhedberg/SimplyFold
-    - vim-syntastic/syntastic
-    - nvie/vim-flake
+    - vim-syntastic/syntastic * Syntastic checking
+    - nvie/vim-flake * Syntax for Python
     - scrooloose/nerdtree
     - jistr/vim-nerdtree-tabs
     - kien/ctrlp.vim
