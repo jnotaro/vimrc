@@ -49,6 +49,10 @@ set splitbelow
 " Auto reload NERDTree after :w
 autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
 
+" Toggle the NERDTree
+nmap <F6> :NERDTreeToggle<CR>
+
+
 "------------Start Python PEP 8 stuff----------------
 " Number of spaces that a pre-existing tab is equal to.
 au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
