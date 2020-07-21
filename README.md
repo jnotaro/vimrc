@@ -11,7 +11,9 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 2. Copy the "_vimrc" to your User folder: cp _vimrc ~/.vimrc
 
-3. Start vim and call :PluginInstall
+3. Be sure, before you start vim, to set .bash_profile an alias of homebrew's vim.
+
+4. Start vim and call :PluginInstall
 
 - List of plugins
     - tmhedberg/SimplyFold
