@@ -4,15 +4,16 @@
 
 ## Vundle - if you don't have Vundle installed:
 
+1. Install Vundle
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-1. If do you want to contribute please email me. 
+2. Copy the "_vimrc" to your User folder: cp _vimrc ~/.vimrc
 
-2. Download my vimrc and rename to .vimrc
+3. Start vim and call :PluginInstall
 
-3. List of plugins
+- List of plugins
     - tmhedberg/SimplyFold
     - vim-syntastic/syntastic * Syntastic checking
     - nvie/vim-flake * Syntax for Python
